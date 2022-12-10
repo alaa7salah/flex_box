@@ -1,0 +1,40 @@
+div div{
+    display: flex;
+    height: 300px;
+    width: calc(70%/4);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    align-content: flex-end;
+    
+    
+}
+div{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    height:700px;
+    width: 100%;
+    color: aliceblue;
+    
+}
+.four,.two{
+    align-self:flex-end;
+}
+ .four{
+background-color: rgb(174, 79, 217);
+    order: 1;
+}
+.one{
+    background-color: rgb(227, 136, 94);
+    order: 2;
+}
+.two{
+    background-color: rgb(79, 217, 123);
+    order: 3;
+}
+.three{
+    background-color: rgb(57, 29, 3);
+    order: 4;
+}
